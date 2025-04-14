@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="text">CALCULATOR</div>
+  <div class="calculator">
+    <input type="text" class="display" id="display" disabled />
+    <div class="buttons">
+      <button class="btns" onclick="clearDisplay()">clear</button>
+      <button class="btns" onclick="deleteLast()">⌫</button>
+      <button class="btns" onclick="calculatorbtn('%')">%</button>
+      <button class="btns operator" onclick="calculatorbtn('/')">÷</button>
+
+      <button class="btns" onclick="calculatorbtn('7')">7</button>
+      <button class="btns" onclick="calculatorbtn('8')">8</button>
+      <button class="btns" onclick="calculatorbtn('9')">9</button>
+      <button class="btn operator" onclick="calculatorbtn('*')">×</button>
+
+      <button class="btn" onclick="calculatorbtn('4')">4</button>
+      <button class="btns" onclick="calculatorbtn('5')">5</button>
+      <button class="btns" onclick="calculatorbtn('6')">6</button>
+      <button class="btns operator" onclick="calculatorbtn('-')">−</button>
+
+      <button class="btns" onclick="calculatorbtn('1')">1</button>
+      <button class="btns" onclick="calculatorbtn('2')">2</button>
+      <button class="btns" onclick="calculatorbtn('3')">3</button>
+      <button class="btns operator" onclick="calculatorbtn('+')">+</button>
+
+      <button class="btns" onclick="calculatorbtn('0')">0</button>
+      <button class="btns" onclick="calculatorbtn('.')">.</button>
+      <button class="btns equal" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <script src="./index.js "></script>
+</body>
+</html>
