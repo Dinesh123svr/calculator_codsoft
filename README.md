@@ -17,7 +17,7 @@ A simple and responsive calculator built using **HTML**, **CSS**, and **JavaScri
 ## 🌐 Live Demo
 
 👉 [View Calculator](https://github.com/Dinesh123svr/)  
-*(Replace with your actual GitHub Pages link)*
+*(Replace with your actual GitHub Pages link) *
 
 ---
 
